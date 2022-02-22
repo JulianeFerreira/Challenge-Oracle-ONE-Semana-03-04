@@ -11,21 +11,64 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
+.container-inicio{
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-top: 90px;
 }
 
-.titulo h1 {
-    font-size: 3.0em;
-    margin-bottom: 20px;
+.container-inicio h1 {
+    font-size: 4.0em;
     text-align: center;
     color: #845EC2;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 20em;
+    animation: type 4s steps(60, end); 
+    margin-bottom: 50px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+
+.btn-action{
+    background-color: black;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.05em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-action:hover{
+    text-decoration: none;
+    color: white;
+}
 
 #palavra-secreta{
     display: flex;
@@ -74,29 +117,7 @@ body{
     margin-top: 30px;
     color: #845EC2;
     font-size: 1.2em;
-}
-
-.adicionar-palavra {
-    text-align: center;
-}
-
-input[type="text"] {
-    width: 25%;
-    padding: 10px;
-    margin: 30px;
-    border-radius: 5px;
-    border: 0;
-    outline: 0;
-}
-
-.btn-add {
-    background-color: #845EC2;
-    border: none;
-    padding: 12px 30px;
-    border-radius: 20px;
-    color: white;
-    font-size: 1.05em;
-    cursor: pointer;
+    font-weight: bold;
 }
 
 @media (min-width: 321px){
