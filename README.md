@@ -9,5 +9,3 @@
 - Só deve ser possívél escrever letras (os números não serão válidos)
 - As letras erradas devem aparecer na tela, mas não podem aparecer repetidamente;( A fazer )
 - As letras corretas devem ser mostradas na tela acima dos traços, nas posições corretas em relação à palavra.
-
-https://user-images.githubusercontent.com/54564103/155048773-879da3d8-bd9d-4c93-8906-eb4c2c719eb3.mp4
